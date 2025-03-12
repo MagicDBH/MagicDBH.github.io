@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>李泽钊-云计算实验报告</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 210mm;
+            margin: 20px auto;
+            padding: 30px;
+            line-height: 1.8;
+            background-color: #f8f9fa;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border: 2px solid #333;
+        }
+
+        th, td {
+            border: 1px solid #666;
+            padding: 12px;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #e9ecef;
+            width: 15%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            padding: 5px;
+            display: block;
+        }
+
+        .report-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .steps ol {
+            counter-reset: step-counter;
+            padding-left: 30px;
+        }
+
+        .steps li {
+            counter-increment: step-counter;
+            margin-bottom: 25px;
+        }
+
+        .steps li::before {
+            content: counter(step-counter) "、";
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="report-title">
+        <h1>山东大学 <span class="underline">计算机科学与技术</span> 学院</h1>
+        <h2><span class="underline">云计算技术</span> 课程实验报告</h2>
+    </div>
+
+    <!-- 学生信息表 -->
+    <table>
+        <tr>
+            <th>学号</th>
+            <td>202200130007</td>
+            <th>姓名</th>
+            <td>李泽钊</td>
+            <th>班级</th>
+            <td>22.6</td>
+        </tr>
+    </table>
+
+    <!-- 实验基本信息 -->
+    <table>
+        <tr>
+            <th>实验题目</th>
+            <td colspan="5">利用云平台搭建个人博客</td>
+        </tr>
+        <tr>
+            <th>实验学时</th>
+            <td>2</td>
+            <th>实验日期</th>
+            <td colspan="3">2025.3.12</td>
+        </tr>
+    </table>
+
+    <!-- 实验目的 -->
+    <h2>实验目的</h2>
+    <p>本实验旨在通过实践操作，掌握基于云计算环境的网站部署技能。</p>
+    <p>具体包括：</p>
+    <ul>
+        <li>构建环境并实现个人博客/网站的搭建</li>
+        <li>撰写实验报告</li>
+        <li>将报告作为博文发布在自己的博客/网站上</li>
+    </ul>
+
+    <!-- 实验环境 -->
+    <h2>实验环境</h2>
+    <table>
+        <tr>
+            <th>硬件环境</th>
+            <td>联网的计算机一台</td>
+        </tr>
+        <tr>
+            <th>软件环境</th>
+            <td>Windows 或 Linux 操作系统</td>
+        </tr>
+    </table>
+
+    <!-- 实验步骤 -->
+    <h2>实验步骤与内容</h2>
+    <div class="steps">
+        <ol>
+            <li>
+                购买云服务器，选择阿里云
+                <img src="media/image1.png" alt="阿里云购买界面">
+            </li>
+            <li>
+                服务器配置
+                <img src="media/image2.png" alt="服务器配置截图">
+            </li>
+            <li>安装nginx等环境</li>
+            <li>
+                部署网站
+                <img src="media/image3.png" alt="网站部署结果">
+            </li>
+        </ol>
+    </div>
+
+    <!-- 结论分析 -->
+    <h2>结论分析与体会</h2>
+    <p>学会如何使用云服务器部署网站</p>
+
+    <!-- 返回链接 -->
+    <div style="margin-top: 40px; text-align: center;">
+        <a href="index.html" style="padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+            返回博客首页
+        </a>
+    </div>
+</body>
+</html>
